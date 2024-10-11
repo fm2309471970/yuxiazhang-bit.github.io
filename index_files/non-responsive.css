@@ -126,7 +126,7 @@ body,
 .navbar .navbar-nav .open .dropdown-menu > .disabled > a,
 .navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
 .navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-  color: #999 !important;
+  color: #999999 !important;
   background-color: transparent !important;
 }
 
@@ -202,3 +202,20 @@ body,
 .navbar-form .has-feedback .form-control-feedback {
   top: 0;
 }
+
+/* 修改导航栏背景颜色 */
+.navbar {
+  background-color: #149044 !important; /* 导航栏背景颜色 */
+}
+
+/* 修改导航栏链接的文字颜色
+.navbar a {
+  color: #ffffff; 
+} */
+
+/* 修改导航栏悬停时的链接颜色 */
+.navbar a:hover {
+  color: #f4f6f2 !important; /* 悬停时的文字颜色 */
+  background-color: #20A264 !important;
+}
+
