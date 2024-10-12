@@ -205,7 +205,7 @@ body,
 
 /* 修改导航栏背景颜色 */
 .navbar {
-  background-color: #149044 !important; /* 导航栏背景颜色 */
+  background-color: #34877c !important; /* 导航栏背景颜色 */
 }
 
 /* 修改导航栏链接的文字颜色
@@ -216,6 +216,25 @@ body,
 /* 修改导航栏悬停时的链接颜色 */
 .navbar a:hover {
   color: #f4f6f2 !important; /* 悬停时的文字颜色 */
-  background-color: #20A264 !important;
+  background-color: #26a281 !important;
 }
+
+
+/* styles.css */
+a {
+  color: #001208;
+}
+
+a:hover {
+  color: #001c0f;
+}
+
+a:visited {
+  color: #013a1e;
+}
+
+a:active {
+  color: #0a331f;
+}
+
 
